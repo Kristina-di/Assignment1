@@ -10,6 +10,7 @@ package ca.sheridancollege.week2.softwarefundamentals.exercise1;
  * and then asks the user to pick a card and searches the array of cards
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author Kristina Dias
+ * date: 07/06/2020
  */
 import java.util.Scanner;
 public class CardTrick {
