@@ -47,6 +47,7 @@ public class CardTrick {
 		for (int j = 0; j < magicHand.length; j++){
 			if((magicHand[j].getValue() == 7) && 
 					(magicHand[j].getSuit().equalsIgnoreCase("Hearts")));
+			check = true;
 		/**for (int j = 0; j < magicHand.length; j++){
 			if((magicHand[j].getValue() == inputValue) && 
 					(magicHand[j].getSuit().equalsIgnoreCase(inputSuit)));
