@@ -28,9 +28,9 @@ public class CardTrick {
 			magicHand[i] = c;
 		}
 		//insert code to ask the user for Card value and suit, create their card
-		Card player = new Card();
-		player.setSuit("Any");
-		player.setValue(1);
+		Card luckyCard = new Card();
+		player.setSuit("Hearts");
+		player.setValue(12);
 		int inputValue = 0;
 		String inputSuit = "Any";
 		Scanner sc = new Scanner(System.in);
