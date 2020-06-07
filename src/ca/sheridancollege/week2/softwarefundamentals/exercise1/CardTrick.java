@@ -18,6 +18,10 @@ public class CardTrick {
 	{
 		Card[] magicHand = new Card[7];
 		
+		Card luckyCard = new Card();
+		luckyCard.setSuit("Hearts");
+		luckyCard.setValue(12);
+		
 		for (int i=0; i<magicHand.length; i++)
 		{
 			Card c = new Card();
@@ -27,10 +31,9 @@ public class CardTrick {
 			c.setSuit(Card.SUITS[(int)(Math.random() * 4)]);
 			magicHand[i] = c;
 		}
+		
 		//insert code to ask the user for Card value and suit, create their card
-		Card luckyCard = new Card();
-		player.setSuit("Hearts");
-		player.setValue(12);
+		
 		int inputValue = 0;
 		String inputSuit = "Any";
 		Scanner sc = new Scanner(System.in);
