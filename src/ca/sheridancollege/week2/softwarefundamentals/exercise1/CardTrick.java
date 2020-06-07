@@ -36,19 +36,22 @@ public class CardTrick {
 		
 		int inputValue = 0;
 		String inputSuit = "Any";
-		Scanner sc = new Scanner(System.in);
+		/**Scanner sc = new Scanner(System.in);
 		System.out.println("Choose the card value: ");
 		inputValue = sc.nextInt();
 		System.out.println("Choose the card suit: ");
-		inputSuit = sc.next();
+		inputSuit = sc.next();*/
 		// and search magicHand here
 		boolean check = false;
-
+		
 		for (int j = 0; j < magicHand.length; j++){
+			if((magicHand[j].getValue() == 7) && 
+					(magicHand[j].getSuit().equalsIgnoreCase("Hearts")));
+		/**for (int j = 0; j < magicHand.length; j++){
 			if((magicHand[j].getValue() == inputValue) && 
 					(magicHand[j].getSuit().equalsIgnoreCase(inputSuit)));
 			check = true;
-		}
+		}*/
 		//Then report the result here
 		if(check = true){
 			System.out.println("You win!");
